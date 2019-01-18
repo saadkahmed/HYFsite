@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Rubik');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+    color:#2F323B;
+}
+
+.navbar {
+   text-transform: uppercase; 
+   font-weight: 700;
+   font-size: 0.8rem;
+   letter-spacing: 0.1rem;
+   background: rgba(209,117,103,0.45)!important
+}
+.navbar-brand img {
+    height: 2.4rem;
+}
+.navbar-nav li {
+    padding-right: 0.7rem;
+}
+
+/*--- Landing Page ---*/
+
+.home-inner {
+    background-image: url(img//hyfbw.jpg);
+}
+
+.caption {
+    width:100%;
+    max-width: 100%;
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-family: 'Roboto Mono', monospace;   
+    text-shadow: 0.1rem 0.05rem 0.1rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;   
+    text-shadow: 0.1rem 0.05rem 0.1rem black;
+    padding-bottom: 1.5rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 5; 
+}
