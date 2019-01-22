@@ -11,7 +11,7 @@ body {
    font-weight: 700;
    font-size: 0.8rem;
    letter-spacing: 0.1rem;
-   background: rgba(209,117,103,0.45)!important
+   background: rgba(213,98,86,1)!important
 }
 .navbar-brand img {
     height: 2.4rem;
@@ -23,7 +23,7 @@ body {
 /*--- Landing Page ---*/
 
 .home-inner {
-    background-image: url(img//hyfbw.jpg);
+    background-image: url(img/hyfrOR.jpg);
 }
 
 .caption {
@@ -32,14 +32,14 @@ body {
     position: absolute;
     top: 25%;
     z-index: 1;
-    color: black;
+    color: white;
     font-family: 'Roboto Mono', monospace;
 }
 
 .caption h1 {
     font-size: 3.8rem;
-    font-family: 'Roboto Mono', monospace;   
-    text-shadow: 0.1rem 0.05rem 0.1rem black;
+    font-family: 'Roboto Mono', monospace; 
+    text-shadow: 0.2rem 0.1rem 0.1rem black;
     padding-bottom: 1rem;
 }
 
@@ -51,8 +51,13 @@ body {
 }
 
 .btn-lg {
+    color:rgba(213,98,86,1);
+    border-color: rgba(213,98,86,1);
+    padding: .6rem 1/3rem;
     border-width: medium;
     font-weight: 700;
-    font-size: 1.1rem;
-    border-radius: 5; 
+    font-size: 1.1rem; 
+}
+.about h1 {
+    margin-top: 400px;
 }
