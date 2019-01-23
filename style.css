@@ -26,7 +26,7 @@ body p {
 /*--- Landing Page ---*/
 
 .home-inner {
-    background-image: url(img/hyfrOR.jpg);
+    background-image: url(img/classroom.jpg);
 }
 
 .caption {
@@ -35,26 +35,29 @@ body p {
     position: absolute;
     top: 25%;
     z-index: 1;
-    color: white;
+    color: black;
     font-family: 'Roboto Mono', monospace;
 }
 
 .caption h1 {
-    font-size: 3.8rem;
+    font-size: 4.8rem;
+    color: #C35354;
     font-family: 'Roboto Mono', monospace; 
-    text-shadow: 0.2rem 0.1rem 0.1rem black;
+    text-shadow: 0.05rem 0.0rem 0.1rem black;
+    font-weight: 700;
     padding-bottom: 1rem;
 }
 
 .caption h3 {
     font-size: 2rem;
     font-family: 'Roboto Mono', monospace;   
-    text-shadow: 0.1rem 0.05rem 0.1rem black;
+    text-shadow: 0.01rem 0.01rem 0.01rem black;
     padding-bottom: 1.5rem;
 }
 
 .btn-lg {
-    color:rgba(213,98,86,1);
+    color:rgba(195,83,84,1);
+    background-color: #FFC0BB;
     border-color: rgba(213,98,86,1);
     padding: .6rem 1/3rem;
     border-width: medium;
