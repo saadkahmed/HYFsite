@@ -9,12 +9,20 @@ body p {
     line-height: 2rem;
 }
 
+.offset:before {  
+    display: block;
+    content:"";
+    height: 4rem;
+    margin-top: -4rem;
+
+}
+
 .navbar {
    text-transform: uppercase; 
    font-weight: 700;
    font-size: 0.8rem;
    letter-spacing: 0.1rem;
-   background: rgba(125, 32, 63, 1)!important
+   background: rgba(125, 32, 63, 0.9)!important
 }
 .navbar-brand img {
     height: 2.4rem;
@@ -62,6 +70,7 @@ body p {
     text-transform: uppercase;
     padding: .6rem 1.2rem;
     border-width: medium;
+    border-radius: 3px;
     font-weight: 700;
 }
 .btn-lg:hover {
@@ -75,9 +84,22 @@ body p {
     margin: 1.5rem auto;
 }
 
-/*--- Partners Section ---*/
+/*--- Topics Section ---*/
 .jumbotron {
    margin-bottom: 0;
    padding: 2rem 0 3.5rem; 
+   border-radius:0;
+   background-color: #FFE3ED;
 }
-
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+.heading-underline {
+    width: 3.5rem;
+    height: .2rem;
+    background-color:  rgba(125, 32, 63, 1);
+    margin: 0 auto 2rem;
+}
