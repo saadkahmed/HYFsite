@@ -103,3 +103,9 @@ h3.heading {
     background-color:  rgba(125, 32, 63, 1);
     margin: 0 auto 2rem;
 }
+
+/*--- Team ----*/
+.TeamPhoto {
+    height: 200px;
+    padding-bottom: 1rem;
+}
