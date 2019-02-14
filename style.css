@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Rubik');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway|Source+Sans+Pro');
 
 body {
     overflow-x: hidden;
@@ -34,7 +35,7 @@ body p {
 /*--- Landing Page ---*/
 
 .home-inner {
-    background-image: url(img/bannerphoto.png);
+    background-image: url(img/Banner.jpg);
 }
 
 .caption {
@@ -44,7 +45,7 @@ body p {
     top: 25%;
     z-index: 1;
     color: black;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .caption h1 {
@@ -72,6 +73,17 @@ body p {
     border-width: medium;
     border-radius: 3px;
     font-weight: 700;
+}
+.btn-sm {
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+    background-color: #00C9A3;
+    border-color: rgba(0, 201, 163, 1);
+    padding: .4rem 0.7rem;
+    border-width: medium;
+    border-radius: 5px;
+    font-weight: 600;
 }
 .btn-lg:hover {
     border-color:#2e8c7b;
