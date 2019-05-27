@@ -5,6 +5,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
       <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="css/fixed.css">
@@ -59,7 +60,6 @@
             <h1>Welcome to HackYourFuture Canada</h1>
             <i style="color:#B5546E" class="fab fa-canadian-maple-leaf fa-4x"></i><br><br>
             <h3>A Refugee Coding School in Toronto</h3>
-            <a class="btn btn-outline-dark btn-lg" href="#Involve"> Get Started </a>
         </div>
 
         <!-- end landing page-->
@@ -190,7 +190,7 @@
                         <p>If you meet the basic requirements and wish to apply as a student, click the link below to fill out a form. <br>
                             We contact students individually after reviewing all applicants. We hope to see you!
                         </p>
-                        <a class="btn btn-outline-dark btn-sm" href="#Student" onclick="showDiv()"> Become a Student </a>
+                        <a class="btn btn-outline-dark btn-sm" href="#Contact"> Become a Student </a>
                         <div id="comingSoon" class="container Coming" style="display:none;">
                             <h3>Coming Soon!</h3>
                         </div>
@@ -205,7 +205,7 @@
                             If you're interested in becoming a coach, fill out the application below. We'll be in touch with you soon. 
 
                         </p>
-                        <a class="btn btn-outline-dark btn-sm" href="#Instructor" onclick="buttonPress()"> Become a Coach </a>
+                        <a class="btn btn-outline-dark btn-sm" href="#Contact" onclick="buttonPress()"> Become a Coach </a>
                     </div>
                 </div>
 
@@ -223,7 +223,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-4">
                         <div class="feature text-center">
-                            <img class="TeamPhoto rounded-circle" src="img/Team/Rabia Tanvir.jpeg">
+                            <img class="TeamPhoto rounded-circle" src="img/Team/Rabia Ranvir.jpg">
                             <h5><em>Rabia Tanvir</em></h5>
                             <small>Education Manager</small><br>
                             <a href="#"><i class="fas fa-envelope"></i></a>
@@ -241,13 +241,21 @@
                     </div>
                   </div>
                 <div class="row text-center">
-                    <div class="col-md-3">
+
+                <div class="col-md-3">
+                    <div class="feature">
+                        <img class="TeamPhoto rounded-circle" src="img/Team/Abdulazeez Abdulrazzaq.jpg">
+                        <h5><em>Abdulazeez Abdulrazzaq</em></h5>
+                        <a target="_blank" href="https://www.linkedin.com/in/abdulzeez/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
                         <div class="feature">
-                            <img class="TeamPhoto rounded-circle" src="img/Team/Abdulazeez Abdulrazzaq.jpg">
-                            <h5><em>Abdulazeez Abdulrazzaq</em></h5>
+                            <img class="TeamPhoto rounded-circle" src="img/Team/Emad.jpg">
+                            <h5><em>Emad Ahmed</em></h5>
                             <a target="_blank" href="https://www.linkedin.com/in/abdulzeez/"><i class="fab fa-linkedin"></i></a>
                         </div>
-                    </div>
+                </div>
                 <div class="col-md-3">
                     <div class="feature">
                         <img class="TeamPhoto rounded-circle" src="img/Team/Saad.jpg">
@@ -265,7 +273,7 @@
                 <div class="col-md-3">
                     <div class="feature">
                         <img class="TeamPhoto rounded-circle" src="img/Team//Mohannad Bakkar.jpg">
-                        <h5><em>Mohammad Bakkar</em></h5>
+                        <h5><em>Mohannad Bakkar</em></h5>
                         <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
@@ -346,7 +354,7 @@
 
                 <div style="border-color: black" class="col-md-3">
                         <div class="card" style=" width: 18rem;">
-                            <img style="padding: 25px" src="/img/MMLogo.png" class="card-img-top" alt="...">
+                            <img style="padding: 25px" src="./img/MMLogo.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h4 class="card-title">MommyMonitor</h4>
                                 <p class="card-text">
@@ -360,7 +368,7 @@
 
                 <div style="border-color: black" class="col-md-3">
                         <div class="card" style="width: 18rem;">
-                            <img style="padding-top: 20px" src="/img/RBClogo2.jpg" class="card-img-top" alt="...">
+                            <img style="padding-top: 20px" src="./img/RBClogo2.jpg" class="card-img-top" alt="...">
                             <div class="card-body"><br><br>
                                 <h4 class="card-title">RBC Bank</h4>
                                 <p class="card-text">
@@ -382,8 +390,8 @@
     <div id="Support" class="offset">
         <div class="jumbotron text-center">
             <h3>Support HackYourFuture Canada</h3>
-            <div class="heading-underline"></div><br><br>
-            <h5>HackYourFuture Canada is a not-for-profit group. Become a partner or send a donation to help support the program</h5>
+            <div class="heading-underline"></div>
+            <h5>HackYourFuture Canada is a not-for-profit group. Become a partner!</h5>
             <br><br>
             <!-- Become a partner Section-->
             <div id="Partner">
@@ -392,17 +400,17 @@
                 Our students are taught to write clean code and learn to solve problems efficiently. 
                 Tell us about your hiring needs, and one of our graduates may suit the role. 
             </p>
-            <a style="margin:25px;" class="btn btn-outline-dark btn-sm" href="#Student"> Support us </a>
+            <a style="margin:25px;" class="btn btn-outline-dark btn-sm" href="#Contact"> Support us </a>
  
             </div> <!-- end of become a partner-->
 
-            <div id="Support">
+            <!-- <div id="Support">
                 <h3> Support Us </h3>
                 <p>               
                     Become a partner of HackYourFuture Canada by visiting the link below
                 </p>
                 <a style="margin:25px;" class="btn btn-outline-dark btn-sm" href="#Student"> Donate </a>
-            </div>
+            </div> -->
         </div>
 
     </div>
@@ -413,16 +421,27 @@
     <div id="Contact" class="offset">
         <div class="narrow justify-content-center text-center"><br>
             <h3>Get in Touch!</h3>
-            <div class="heading-underline"></div><br><br>
-            <form action="">
-                <label>Contact Information</label>
-                <input class="form-control" type="text" action="contact.php" name="name" placeholder="Name"><br>
-                <input class="form-control" type="text" action="contact.php" name="nmail" placeholder="E-mail Address"><br><br>
+            <div class="heading-underline"></div><br>
+
+            <form action="https://formspree.io/hackyourfuture@rcjp.ca" method="POST">
+
+                <label>Name</label>
+                <input class="form-control name" type="text" name="name" placeholder="Name"><br>
+
+                <label>Email</label>
+                <input class="form-control email" type="email" name="email" placeholder="johndoe@email.com"><br>
+
+                <label>Topic</label>
+                <input class="form-control topic" type="text" name="topic" placeholder="......"><br>
+
                 <label>Message</label>
-                <input style="height: 200px" class="form-control" type="text" action="contact.php" name="Email" placeholder="">
-                <a style="margin:25px;" class="btn btn-outline-dark btn-sm" href="#Student"> Submit </a>
+                <textarea class="form-control message" name="message"></textarea>
+                <br>
+
+                <button type="submit" class="btn-sm btn-dark submit">submit</button>  
 
             </form>
+            <div class='status'></div>
         </div>
 
     </div>
@@ -447,9 +466,9 @@
     <!-- end of footer-->
 
       <!-- Script Source Files -->
-      <script src="/js/index.js">
+      <script src="./js/index.js">
       </script>
-      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="./js/jquery-3.4.1.min.js"></script>
       <script src="bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
       <script src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
       <!-- -->
